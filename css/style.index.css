@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+.estilo1{
+    margin: 0;
+    background-image: url(../img/bpxxqqvps4h91.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 25px;
+}
+
+.textoDerecha{
+color: white;
+}
+
+.textoBlanco{
+color: white;
+background-color: red;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-33{
+    width: 33%;
+    float: left;
+    padding: 2%;
+    text-align: center;
+}
+.col-50{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.col-25{
+    width: 25%;
+}
+#tamaño-img{
+    width: 300px;
+    height: 300px;
+}
+.textoCentrado{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    margin: 0%;
+}
+.Titulo{
+    text-align: center;
+}
+.fondoNegro{
+    background-color: black;
+}
+.imagenfondo{
+    height: 100vh;
+}
+.Texto4{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.Texto5{
+    color: white;
+    margin-left: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.Texto5bold{
+    font-weight: bold;
+}
+.col-502{
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 5%;
+}
+@media only screen and (max-width:600px){
+    .col-502{
+        width: 100%;
+    }
+    .col-50{
+        width: 100%;
+    }
+    .col-33{
+        width: 100%;
+    }
+    .col-25{
+        width: 50%;
+    }
+}
