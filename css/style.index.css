@@ -13,11 +13,12 @@
 
 .textoDerecha{
 color: white;
+color: rgb(66, 99, 231);
 }
 
 .textoBlanco{
 color: white;
-background-color: red;
+background-color: rgb(66, 99, 231);
 }
 
 .row{
@@ -44,7 +45,7 @@ background-color: red;
 }
 .textoCentrado{
     text-align: center;
-    background-color: red;
+    background-color:  rgb(66, 99, 231);
     color: white;
     font-size: 50px;
     margin: 0%;

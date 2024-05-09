@@ -31,6 +31,7 @@ li a:hover {
     text-align: center;
     font-size: 22px;
     font-family: 'Courier Prime', monospace;
+    color: rgb(244, 244, 248);
 }
 .fondoBO3{
     background-color: darkorange;
@@ -91,3 +92,23 @@ button {
     height: auto;
     max-width: 100%;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table, td {
+    border: 3px solid black;
+  }
+  
+  td {
+    padding: 6px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
